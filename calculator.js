@@ -170,7 +170,7 @@
             var self = this;
             $.ajax({
                 type: 'GET',
-                url: 'http://localhost/examples/getLeoPrice.php',
+                url: 'https://api.leobit.net/getLeoPrice.php',
                 dataType: 'json',
                 success: function(response) {
                     self.bitstampPrice = response.bitstampPrice;
